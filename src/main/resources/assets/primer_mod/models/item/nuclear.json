@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "primer_mod:items/nuclear"
-  }
+  "parent": "primer_mod:block/nuclear"
 }

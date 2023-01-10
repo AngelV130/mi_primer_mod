@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OLO",
+    "OLO",
+    "OLO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:tnt"
+    },
+    "L": {
+      "item": "minecraft:flint_and_steel"
+    }
+  },
+  "result": {
+    "item": "primer_mod:block/nuclear"
+  }
+}

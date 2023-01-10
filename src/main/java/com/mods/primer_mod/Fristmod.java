@@ -1,5 +1,6 @@
 package com.mods.primer_mod;
 
+import com.mods.primer_mod.init.InitBlocks;
 import com.mods.primer_mod.init.InitItems;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -13,5 +14,6 @@ public class Fristmod {
     {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         InitItems.ITEM.register(bus);
+        InitBlocks.BLOCKS.register(bus);
     }
 }
